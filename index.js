@@ -1,12 +1,11 @@
-const http = require('http');
+const express = require('express')
+const app = express()
+const PORT = 3000;
 
-const handleRequest = (req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('Hello World!\n');
-};
+app.get('/', function (req, res) {
+    res.send('Hello Node.js REST API...!')
+})
 
-const server = http.createServer(handleRequest);
-
-server.listen(3000, () => {
-    console.log('Server is running on http://localhost:3000');
-});
+app.listen(PORT, () => {
+    console.log("Server is Listening!");
+})
