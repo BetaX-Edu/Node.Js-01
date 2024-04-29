@@ -1,0 +1,22 @@
+{
+  "name": "nodejsrestapi",
+  "version": "1.0.0",
+  "description": "node.js rest api project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetaX-Edu/Node.Js-01.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Mindula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetaX-Edu/Node.Js-01/issues"
+  },
+  "homepage": "https://github.com/BetaX-Edu/Node.Js-01#readme"
+}
