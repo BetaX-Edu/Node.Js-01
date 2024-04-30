@@ -19,3 +19,8 @@ npm install
 ```
 node index.js
 ```
+
+## project run (nodemon)
+```
+npm start
+```
